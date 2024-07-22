@@ -4,11 +4,11 @@ IPv4 domain scanner. Parser.py is intended to parse through https://ipinfo.io/ac
 
 Masscan required. 
 
-git clone https://github.com/robertdavidgraham/masscan.git
+```git clone https://github.com/robertdavidgraham/masscan.git```
 
 zgrab2 required.
 
-git clone https://github.com/zmap/zgrab2.git
+```git clone https://github.com/zmap/zgrab2.git```
 
 After parsing ASN ranges by country or company, output scan to a file called list. Masscan will then parse through entire ASN range(s) and output two files. ips_80.txt and ip_443.txt. zgrab then begins to pull data and output two seperate json files. zgrabparser.py then Enumerates IP - Title by default, easy to manipulate for whatever intended results you're searching for. 
 
